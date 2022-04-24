@@ -1,0 +1,14 @@
+.ui-title-accordion {
+  color: black;
+  font-weight: bold;
+  border: 1px solid #a7a7a7;
+  border-radius: 15px 15px 5px 5px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+
+.ui-content-accordion {
+  color: black;
+  text-align: justify;
+  padding: 0 0.5rem;
+}

@@ -1,0 +1,16 @@
+<div class="mt-4 p-5 bg-light text-white rounded jumbotron">
+  <div style="display: flex; flex-direction: column; gap: 1rem">
+    <div style="color: black; font-size: 14px; font-weight: bold; display: flex; flex-direction: column;">
+      <div>
+        <p>{{contato.nome}}</p>
+      </div>
+      <div>
+        <p>{{contato.telefone}}</p>
+      </div>
+      <div>
+        <p>{{contato.data | date: 'dd/MM/yyyy HH:mm'}}</p>
+      </div>
+    </div>
+    <a class="btn btn-primary btn-block" href="#!/contatos">Voltar</a>
+  </div>
+</div>
